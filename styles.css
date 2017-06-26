@@ -1,0 +1,14 @@
+
+
+.container {
+    height: 800px;
+    width: 800px;
+    background-color: powderblue;
+	display: inline-block;
+}
+
+.pixels {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
