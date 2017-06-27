@@ -4,5 +4,10 @@ $(document).ready(function(){
 	$('.pixels').on('mouseenter', function() {
 		$(this).addClass('hovered')
 	})
-  
+  	$('.refresh').on('click', function() {
+  		$('.pixels').remove()
+  		var square = prompt("Enter the number of pixels to square:")
+  		var squareInt = Number(square)
+  		
+  	})
 })
