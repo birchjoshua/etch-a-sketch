@@ -1,6 +1,10 @@
 
 
 .container {
+	font-size: 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
     height: 800px;
     width: 800px;
     background-color: powderblue;
@@ -8,6 +12,9 @@
 }
 
 .pixels {
+	margin: 0;
+	border: 0;
+	padding: 0;
 	height: 50px;
 	width: 50px;
 	display: inline-block;
